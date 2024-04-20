@@ -1,0 +1,35 @@
+body {
+    text-align: center;
+    background-image: url('imagen.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.title {
+    color: antiquewhite;
+}
+
+.slot-machine {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.reel {
+    width: 100px;
+    height: 150px;
+    border: 1px solid #f8f8f8;
+    margin: 0 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+}
+
+button {
+    font-size: 20px;
+    padding: 10px 20px;
+    margin-top: 20px;
+    cursor: pointer;
+}
